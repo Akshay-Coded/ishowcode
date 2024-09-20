@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "retext-english": "^5.0.0",
+    "retext-profanities": "^8.0.0",
+    "retext-stringify": "^4.0.0",
+    "to-vfile": "^8.0.0",
+    "unified": "^11.0.5",
+    "vfile-reporter": "^8.1.1"
+  }
+}
