@@ -7,6 +7,12 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
+    if (!text.trim()) {
+      alert('Please enter a message before submitting.');
+      return;
+    }
+  
     try {
       const res = await fetch('http://localhost:5000/analyze-text', {
         method: 'POST',
@@ -22,19 +28,20 @@ function App() {
       alert('There was an error processing the text.');
     }
   };
+  
 
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Text Analyzer</h1>
+        <h1>Profane Checker</h1>
         <form onSubmit={handleSubmit} className="text-form">
           <textarea
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Enter your text here..."
+            placeholder="Enter your message here..."
             className="text-area"
           />
-          <button type="submit" className="submit-button">Analyze Text</button>
+          <button type="submit" className="submit-button">Send Message</button>
         </form>
         {response && (
           <div className="response">
@@ -42,6 +49,7 @@ function App() {
             <p><strong>Message:</strong> {response.message}</p>
             <p><strong>Processed Text:</strong> {response.result}</p>
             <p><strong>Warnings:</strong> {response.warnings.length > 0 ? response.warnings.join(', ') : 'None'}</p>
+            <p><strong>Suggestions:</strong>{response.suggestions}</p>
           </div>
         )}
       </header>
