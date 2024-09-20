@@ -11,28 +11,24 @@ import { reporter } from 'vfile-reporter';
 const app = express();
 const PORT = 5000;
 
-// Enable CORS to allow requests from the frontend
 app.use(cors());
 
-// Use bodyParser to parse JSON data from requests
 app.use(bodyParser.json());
 
-// Route to handle POST requests from frontend
 app.post('/analyze-text', async (req, res) => {
   const { text } = req.body;
 
   try {
-    // Process the text received from the frontend
+    fs.writeFileSync('text.txt', text);
+    const fileContent = fs.readFileSync('text.txt', 'utf8');
     const file = await unified()
       .use(retextEnglish)
       .use(retextProfanities)
       .use(retextStringify)
-      .process(text);
+      .process(fileContent);
 
-    // Log the result to the console (optional)
     console.error(reporter(file));
 
-    // Respond back with the processed text and any warnings/errors
     res.json({
       message: 'Text processed successfully',
       result: String(file),
@@ -44,7 +40,6 @@ app.post('/analyze-text', async (req, res) => {
   }
 });
 
-// Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
