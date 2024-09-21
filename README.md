@@ -62,7 +62,7 @@ Integration of Livestream chat and sarvesh's AI model
 
 ## Contact
 For issues or inquiries, reach out to the repository owners - 
-- [Dhanvanth Y](downbad.com)
+- [Dhanvanth Y](https://github.com/dhanvanth-dev)
 - [Akshay R](https://github.com/Akshay-Coded)
 - [Sarveshwaran R](https://github.com/SarveshwaranR05)
 - [Chethan JS](https://github.com/ChethanJS07)
