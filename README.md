@@ -7,6 +7,9 @@ This project is an AI-powered profanity filtering tool for streamers and content
 - **Speech-to-Text Integration**: Automatically process live audio streams for profanity.
 - **Google Gen AI API**: Utilize the latest AI language models for more accurate, context-aware content moderation.
 - **Cross-Platform**: Works seamlessly across streaming platforms (YouTube, Twitch, etc.).
+
+## PowerPoint Presentation : [click here](https://docs.google.com/presentation/d/1LCWneoOKIv4CGGOQ7fJxQ4KPpKg8F8H8/edit#slide=id.p1)
+
 ## Installation
 
 ### Prerequisites
