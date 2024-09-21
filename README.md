@@ -19,8 +19,8 @@ This project is an AI-powered profanity filtering tool for streamers and content
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/username/profanity-filter.git
-    cd profanity-filter
+    git clone https://github.com/ChethanJS07/ishowcode.git
+    cd ishowcode
     ```
 
 2. **Install dependencies**:
