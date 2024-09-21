@@ -54,8 +54,11 @@ The app will be running at `http://localhost:3000`.
 ![Image Alt Text](ss5.png)
 ![Image Alt Text](ss1.png)
 ![Image Alt Text](ss2.png)
-![Image Alt Text](ss3.png)
-![Image Alt Text](ss4.png)
+![Image Alt Text](ss3.jpg)
+![Image Alt Text](ss4.jpg)
+
+## Pending
+Integration of Livestream chat and sarvesh's AI model
 
 ## Contact
 For issues or inquiries, reach out to the repository owner - Dhanvanth Y.
