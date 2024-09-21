@@ -50,6 +50,13 @@ The app will be running at `http://localhost:3000`.
 3. **Speech Recognition**: Enable the speech-to-text feature for automatic audio stream moderation.
 4. **AI-Powered Moderation**: The backend uses the Google Gen AI API for more accurate filtering by understanding the context in which words are used.
 
+## Screenshots
+![Image Alt Text](ss5.png)
+![Image Alt Text](ss1.png)
+![Image Alt Text](ss2.png)
+![Image Alt Text](ss3.png)
+![Image Alt Text](ss4.png)
+
 ## Contact
 For issues or inquiries, reach out to the repository owner - Dhanvanth Y.
 
