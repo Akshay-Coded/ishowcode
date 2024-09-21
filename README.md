@@ -51,6 +51,6 @@ The app will be running at `http://localhost:3000`.
 4. **AI-Powered Moderation**: The backend uses the Google Gen AI API for more accurate filtering by understanding the context in which words are used.
 
 ## Contact
-For issues or inquiries, reach out to the repository owner.
+For issues or inquiries, reach out to the repository owner - Dhanvanth Y.
 
 
