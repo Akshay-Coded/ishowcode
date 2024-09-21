@@ -27,26 +27,17 @@ This project is an AI-powered profanity filtering tool for streamers and content
 
     ```bash
     npm install
-    cd client
-    npm install
     ```
 
-3. **Set up environment variables**:
-
-   Create a `.env` file in the root directory and add the following:
-
-    ```bash
-    REACT_APP_GOOGLE_GENAI_API_KEY=your_google_gen_ai_api_key
-    ```
-
-4. **Run the client and server**:
+3. **Run the client and server**:
 
     ```bash
     # In one terminal, start the Node server
-    npm run dev
+    cd backend
+    nodemon index.js
 
     # In another terminal, start the React frontend
-    cd client
+    cd deprofanity
     npm start
     ```
 
@@ -59,11 +50,7 @@ The app will be running at `http://localhost:3000`.
 3. **Speech Recognition**: Enable the speech-to-text feature for automatic audio stream moderation.
 4. **AI-Powered Moderation**: The backend uses the Google Gen AI API for more accurate filtering by understanding the context in which words are used.
 
-## Profanity Filtering Logic
+## Contact
+For issues or inquiries, reach out to the repository owner.
 
-The profanity filtering is powered by the `bad-words` Node package. Offensive language is identified and replaced or removed based on user preferences. The AI enhances this by understanding nuances like slang, homophones, and tone, ensuring a smoother user experience.
 
-To install `bad-words`, run:
-
-```bash
-npm install bad-words
