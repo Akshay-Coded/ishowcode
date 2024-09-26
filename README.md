@@ -1,7 +1,8 @@
 # AI-Powered Profanity Filter for livestreaming services - IShowCode team
 This project is an AI-powered profanity filtering tool for streamers and content creators. It integrates React.js for the front-end, Google Gen AI API for advanced language processing, and a Node.js package to detect and filter profanity in both text and speech.
 
-[Watch this video on YouTube](https://www.youtube.com/watch?v=your-video-id)
+[![Watch the video](path-to-thumbnail-image.png)](https://youtu.be/nYwUns4DAp0)
+
 
 ## Features
 - **Real-time Profanity Filtering**: Detect and filter inappropriate words in both text and speech using advanced AI models.
